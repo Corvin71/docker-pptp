@@ -12,8 +12,9 @@ user * Passw0rd *
 ````
 
 ## Running PPTP server
-
 To start the PPTP server as a docker container, run the following command :
+
 ````
 docker run --name pptpd --privileged -d -v <path_to_chap-secrets>:/etc/ppp/chap-secrets -p 1723:1723  kevinpz/docker-pptp
 ````
+
